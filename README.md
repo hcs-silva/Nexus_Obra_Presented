@@ -17,6 +17,14 @@ Este diretório apresenta o Nexus Obra como uma **startup construtech** com equi
 - Evidência técnica: arquitetura, segurança, qualidade de entrega e caso BOQ com contingência.
 - Foco startup: velocidade de execução, clareza de decisão e escalabilidade multi-tenant.
 
+## Demonstração de capacidade técnica
+
+- Arquitetura full-stack com TypeScript end-to-end para consistência de domínio.
+- Backend modular com middlewares de autenticação, autorização, observabilidade e rate limit.
+- Gestão de dados com modelos orientados a revisão para rastreabilidade de decisões.
+- Qualidade de entrega com testes unitários, testes E2E e práticas de release disciplinadas.
+- Operação de produto com scripts de smoke-check, readiness reports e workflows de CI.
+
 ## Estrutura
 
 - `index.html`: página principal para portefólio público.
@@ -30,4 +38,3 @@ Este diretório apresenta o Nexus Obra como uma **startup construtech** com equi
 ## Nota de segurança
 
 Este material evita exposição de segredos, credenciais e dados sensíveis de clientes.
-# Nexus_Obra_Presented

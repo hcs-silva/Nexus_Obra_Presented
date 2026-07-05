@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus Obra | Startup Technical Portfolio</title>
+    <meta
+      name="description"
+      content="Startup portfolio do Nexus Obra: produto, engenharia, tração e roadmap para escalar operações de obra."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+
+    <header class="hero">
+      <nav class="top-nav container">
+        <a class="brand" href="#top" aria-label="Nexus Obra">
+          <img
+            src="./assets/img/Nexus_Obra_Logo_Only_Nobg.png"
+            alt="Logo Nexus Obra"
+          />
+          <span>Nexus Obra</span>
+        </a>
+        <div class="nav-links">
+          <a href="#produto">Produto</a>
+          <a href="#engenharia">Engenharia</a>
+          <a href="#capacidade-tecnica">Capacidade Técnica</a>
+          <a href="#boq">Caso BOQ</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="./index.en.html" lang="en">EN</a>
+        </div>
+      </nav>
+
+      <section id="top" class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow">Startup Portfolio</p>
+          <h1>
+            Software de obra para equipas que precisam executar mais rápido com
+            menos risco.
+          </h1>
+          <p>
+            O Nexus Obra liga campo, escritório e orçamento num único produto:
+            orçamentação, planeamento, registo de tempo, desvios e decisão
+            assistida por dados em tempo útil.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./README.md">Ver visão startup</a>
+            <a class="btn btn-ghost" href="#boq">Ver prova técnica</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img
+            src="./assets/img/Nexus Dashboard.png"
+            alt="Dashboard Nexus Obra"
+          />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="produto" class="section container reveal">
+        <div class="section-head">
+          <p class="eyebrow">Produto</p>
+          <h2>
+            Do estaleiro ao escritório, produto único para decisão rápida.
+          </h2>
+        </div>
+        <div class="grid three">
+          <article class="card">
+            <h3>Planeamento acionável</h3>
+            <p>
+              Fases, tarefas, dependências e progresso semanal com foco em
+              velocidade de execução.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Orçamento vivo</h3>
+            <p>
+              Revisões, composições e importação BOQ com margem de imprevistos
+              por alvo de custo.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Operação e equipa</h3>
+            <p>
+              Registo de tempo, presenças e alertas para agir antes de o risco
+              virar custo.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="engenharia" class="section section-alt reveal">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Engenharia</p>
+            <h2>
+              Arquitetura preparada para escalar com segurança e
+              observabilidade.
+            </h2>
+          </div>
+          <div class="grid two">
+            <article class="card">
+              <h3>Stack e arquitetura</h3>
+              <ul>
+                <li>Frontend: React + TypeScript + Vite</li>
+                <li>Backend: Node.js + TypeScript + Express</li>
+                <li>Dados: MongoDB com modelos por domínio</li>
+                <li>Automação: CI com workflows e release matrix</li>
+              </ul>
+              <a href="./docs/technical-architecture.md"
+                >Ver detalhes técnicos</a
+              >
+            </article>
+            <article class="card">
+              <h3>Entrega contínua com confiança</h3>
+              <ul>
+                <li>Testes unitários e E2E (Playwright)</li>
+                <li>Middlewares de autenticação e autorização</li>
+                <li>Observabilidade e métricas de runtime</li>
+                <li>Checklists de readiness para produção</li>
+              </ul>
+              <a href="./docs/quality-security-readiness.md"
+                >Ver práticas de qualidade</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="capacidade-tecnica" class="section container reveal">
+        <div class="section-head">
+          <p class="eyebrow">Prova Técnica</p>
+          <h2>Evidências concretas de engenharia aplicada ao produto.</h2>
+        </div>
+        <div class="grid three">
+          <article class="card">
+            <h3>Arquitetura e contratos</h3>
+            <p>
+              Stack TypeScript end-to-end, modelos por domínio e validações de
+              contrato para evoluir funcionalidades sem quebrar fluxos críticos.
+            </p>
+            <a href="./docs/technical-architecture.md"
+              >Ver arquitetura técnica</a
+            >
+          </article>
+          <article class="card">
+            <h3>Qualidade e confiança</h3>
+            <p>
+              Cobertura de testes unitários e E2E, gates de qualidade e
+              checklists de release para reduzir regressão em produção.
+            </p>
+            <a href="./docs/quality-security-readiness.md"
+              >Ver qualidade e segurança</a
+            >
+          </article>
+          <article class="card">
+            <h3>Operação e escala</h3>
+            <p>
+              Observabilidade de runtime, scripts de smoke-check e práticas
+              multi-tenant para operar com previsibilidade e escalar com
+              controlo.
+            </p>
+            <a href="./docs/roadmap.md">Ver evolução técnica</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="boq" class="section container reveal">
+        <div class="section-head">
+          <p class="eyebrow">Caso Técnico</p>
+          <h2>Importação BOQ com margem de imprevistos.</h2>
+        </div>
+        <div class="grid two">
+          <article class="card accent">
+            <h3>Porque importa</h3>
+            <p>
+              Equipas de obra precisam de um orçamento que reflita risco real. A
+              funcionalidade aplica contingência em materiais, mão de obra ou
+              ambos, antes da confirmação da obra.
+            </p>
+            <div class="kpi-row">
+              <div>
+                <strong data-count="3">0</strong>
+                <span>modos de contingência</span>
+              </div>
+              <div>
+                <strong data-count="100">0</strong>
+                <span>pré-visualização antes de confirmar</span>
+              </div>
+              <div>
+                <strong data-count="2">0</strong>
+                <span>endpoints-chave</span>
+              </div>
+            </div>
+            <a href="./docs/boq-contingency-case-study.md"
+              >Ler case study completo</a
+            >
+          </article>
+          <article class="card visual-stack">
+            <img
+              src="./assets/img/Nexus Orçamentos.jpeg"
+              alt="Módulo de orçamentos"
+            />
+            <img
+              src="./assets/img/Nexus Planeamento.jpeg"
+              alt="Módulo de planeamento"
+            />
+          </article>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section section-alt reveal">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Evolução</p>
+            <h2>Roadmap orientado a tração, impacto e escala.</h2>
+          </div>
+          <div class="timeline">
+            <div class="step">
+              <h3>Agora</h3>
+              <p>
+                Consolidação dos módulos nucleares e melhoria da experiência de
+                operação diária.
+              </p>
+            </div>
+            <div class="step">
+              <h3>Próximo ciclo</h3>
+              <p>
+                Refinamento de analytics de custo, produtividade e previsão de
+                risco em tempo quase real.
+              </p>
+            </div>
+            <div class="step">
+              <h3>Depois</h3>
+              <p>
+                Escalabilidade multi-tenant reforçada e automação de processos
+                críticos de obra.
+              </p>
+            </div>
+          </div>
+          <a class="btn btn-primary" href="./docs/roadmap.md"
+            >Ver roadmap técnico</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <img src="./assets/img/Nexus_Obra.png" alt="Nexus Obra" />
+      <p>
+        Portefólio técnico com tom startup. Para contexto completo, consultar
+        <a href="./README.md">README</a> e docs da pasta.
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
