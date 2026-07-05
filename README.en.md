@@ -1,5 +1,7 @@
 # Nexus Obra - Startup Technical Portfolio
 
+Language: [PT](README.md) | **EN**
+
 This directory presents Nexus Obra as a **construction-tech startup** balancing **product value** and **engineering rigor**.
 
 ## What is included

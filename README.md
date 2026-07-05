@@ -1,5 +1,7 @@
 # Nexus Obra - Startup Portfolio Técnico
 
+Idioma: **PT** | [EN](README.en.md)
+
 Este diretório apresenta o Nexus Obra como uma **startup construtech** com equilíbrio entre **valor de produto** e **rigor de engenharia**.
 
 ## O que está incluído
