@@ -4,6 +4,11 @@ Language: [PT](README.md) | **EN**
 
 This directory presents Nexus Obra as a **construction-tech startup** balancing **product value** and **engineering rigor**.
 
+## Live demo
+
+- Open the public version: [nexusobraportugal.vercel.app](https://nexusobraportugal.vercel.app)
+- Note: demo data is reset every hour.
+
 ## What is included
 
 - Visual public landing page: `index.en.html`
@@ -31,7 +36,7 @@ This directory presents Nexus Obra as a **construction-tech startup** balancing 
 
 - `index.en.html`: primary English portfolio page.
 - `docs/product-overview.en.md`: product vision and value proposition.
-- `docs/technical-architecture.en.md`: stack and system architecture.
+- `docs/technical-architecture.en.md`: stack, diagrams, and system architecture.
 - `docs/boq-contingency-case-study.en.md`: technical BOQ contingency case study.
 - `docs/quality-security-readiness.en.md`: quality, security, and readiness.
 - `docs/roadmap.en.md`: product and technical evolution.

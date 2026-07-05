@@ -4,6 +4,28 @@
 
 A solução segue arquitetura web full-stack, com separação clara entre client, server e persistência.
 
+## Diagramas de arquitetura
+
+```mermaid
+flowchart LR
+  U[Utilizador] --> C[Client React + TypeScript]
+  C --> API[Server Express]
+  API --> DB[(MongoDB)]
+  API --> OBS[Observabilidade]
+  API --> AUTH[Autenticação e autorização]
+  CI[CI / Release] --> C
+  CI --> API
+```
+
+```mermaid
+flowchart TD
+  A[Upload do BOQ] --> B[Parsing e normalização]
+  B --> C[Aplicação da contingência]
+  C --> D[Pré-visualização de totais]
+  D --> E[Confirmação da obra]
+  E --> F[Persistência com revisão]
+```
+
 ## Frontend
 
 - React + TypeScript + Vite.

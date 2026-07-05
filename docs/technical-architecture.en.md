@@ -4,6 +4,28 @@
 
 The solution follows a full-stack web architecture with clear separation between client, server, and persistence layers.
 
+## Architecture diagrams
+
+```mermaid
+flowchart LR
+  U[User] --> C[React + TypeScript Client]
+  C --> API[Express Server]
+  API --> DB[(MongoDB)]
+  API --> OBS[Observability]
+  API --> AUTH[Authentication and authorization]
+  CI[CI / Release] --> C
+  CI --> API
+```
+
+```mermaid
+flowchart TD
+  A[BOQ Upload] --> B[Parsing and normalization]
+  B --> C[Contingency application]
+  C --> D[Totals preview]
+  D --> E[Project confirmation]
+  E --> F[Persisted revision]
+```
+
 ## Frontend
 
 - React + TypeScript + Vite.

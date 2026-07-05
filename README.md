@@ -4,6 +4,11 @@ Idioma: **PT** | [EN](README.en.md)
 
 Este diretório apresenta o Nexus Obra como uma **startup construtech** com equilíbrio entre **valor de produto** e **rigor de engenharia**.
 
+## Live demo
+
+- Aceder à versão pública: [nexusobraportugal.vercel.app](https://nexusobraportugal.vercel.app)
+- Nota: os dados da demo são repostos a cada hora.
+
 ## O que está incluído
 
 - Landing pública visual: `index.html`
@@ -31,7 +36,7 @@ Este diretório apresenta o Nexus Obra como uma **startup construtech** com equi
 
 - `index.html`: página principal para portefólio público.
 - `docs/product-overview.md`: visão de produto e proposta de valor.
-- `docs/technical-architecture.md`: stack e arquitetura do sistema.
+- `docs/technical-architecture.md`: stack, diagramas e arquitetura do sistema.
 - `docs/boq-contingency-case-study.md`: caso técnico de importação BOQ com margem.
 - `docs/quality-security-readiness.md`: qualidade, segurança e readiness.
 - `docs/roadmap.md`: evolução técnica e produto.
